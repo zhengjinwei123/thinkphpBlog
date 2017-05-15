@@ -50,4 +50,11 @@ class Index
         $e = Env::get("statuss","prod");
         var_dump($e);
     }
+
+    public function info($id){
+
+        echo url('index/index/index',["id"=>$id])."</br>";
+        echo url('index/index/info',["id"=>$id])."</br>";
+        return $id;
+    }
 }
