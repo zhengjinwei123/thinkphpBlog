@@ -104,4 +104,25 @@ class Index
         var_dump($req->baseUrl());
     }
 
+    public function type($type = 'json')
+    {
+        if (!in_array($type, ['json', 'xml', 'jsonp'])) {
+            $type = 'json';
+        }
+
+        Config::set('default_return_type', $type);
+
+        $result = [
+            "code" => "200",
+            "list" => [1, 2, 3, 4, 5, 6]
+        ];
+
+        return $result;
+    }
+
+    public function view1()
+    {
+        return view();
+    }
+
 }
