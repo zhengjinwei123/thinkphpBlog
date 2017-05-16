@@ -18,4 +18,6 @@
 
 ### google 调试工具 `Postman` [下载](http://download.csdn.net/detail/c15959140478/9728559)
 
-### 分享插件 [看这里](http://www.jiathis.com/)
+### 社区分享插件 [点这里](http://www.jiathis.com/)
+
+### FeHelper 开发助手 [点这里](https://www.baidufe.com/fehelper/endecode.html)
