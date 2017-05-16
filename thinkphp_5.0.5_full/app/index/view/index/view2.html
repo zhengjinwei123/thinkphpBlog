@@ -8,7 +8,7 @@
 <body>
 <h1>这是 index/index/view2.html</h1>
 
-<p>{$Think.server.HTTP_HOST}--{$Think.server.HTTP_HOST|md5}-----{$Think.server.HTTP_HOST|substr=0,4}</p>
+<p>{$Think.server.HTTP_HOST}--{$Think.server.HTTP_HOST|md5|strtoupper}-----{$Think.server.HTTP_HOST|substr=0,4}---{$Think.server.HTTP_HOST|substr=###,0,4}</p>
 <p>{$Think.env.PHP_STATUS}</p>
 <p>{$Think.session.email}</p>
 <p>{$Think.cookie.name}</p>
@@ -19,7 +19,16 @@
 
 <p>{$Think.const.APP_PATH}</p>
 <p>{$Think.APP_PATH}</p>
+<p>{$time|date="Y-m-d H:i:s",###}</p>
 
+{literal}
+    {$time}
+{/literal}
+
+<br/>
+
+
+{/**这是view的注释**/}
 <?php
     echo APP_PATH."<br/>";
     $a = 10;
@@ -31,5 +40,11 @@
     }
 ?>
 
+
+<br/>
+
+{volist name="list" id="vo"}
+    {$vo},
+{/volist}
 </body>
 </html>
