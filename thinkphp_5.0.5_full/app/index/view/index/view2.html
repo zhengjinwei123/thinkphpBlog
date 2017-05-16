@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>view2</title>
+    <link rel="stylesheet" type="text/css" href="__CSS__/style.css" />
+</head>
+<body>
+<h1>这是 index/index/view2.html</h1>
+
+<p>{$Think.server.HTTP_HOST}--{$Think.server.HTTP_HOST|md5}-----{$Think.server.HTTP_HOST|substr=0,4}</p>
+<p>{$Think.env.PHP_STATUS}</p>
+<p>{$Think.session.email}</p>
+<p>{$Think.cookie.name}</p>
+
+<p>{$Think.get.id}</p>
+<p>{$Think.request.id}</p>
+<p>{$Think.post.sid}</p>
+
+<p>{$Think.const.APP_PATH}</p>
+<p>{$Think.APP_PATH}</p>
+
+<?php
+    echo APP_PATH."<br/>";
+    $a = 10;
+    $b = 20;
+    if($a > $b){
+        echo "1";
+    }else{
+        echo "2";
+    }
+?>
+
+</body>
+</html>

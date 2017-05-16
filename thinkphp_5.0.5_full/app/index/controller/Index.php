@@ -150,4 +150,9 @@ class Index extends Controller
         ], ["STATIC" => "呵呵"]);
     }
 
+    public function view2()
+    {
+        return view();
+    }
+
 }
