@@ -16,6 +16,6 @@
       AllowOverride All
 ```
 
-### google 调试工具 `Postman` 下载
+### google 调试工具 `Postman` [下载](http://download.csdn.net/detail/c15959140478/9728559)
 
-[Postman](http://download.csdn.net/detail/c15959140478/9728559)
+### 分享插件 [看这里][http://www.jiathis.com/]
