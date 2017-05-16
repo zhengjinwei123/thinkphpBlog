@@ -19,4 +19,8 @@ return array(
         // 是否自动开启 SESSION
         'auto_start'     => true
     ],
+    // 视图输出字符串内容替换
+    'view_replace_str'       => [
+
+    ],
 );

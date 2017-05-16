@@ -6,6 +6,7 @@ use think\Config;
 use think\Env;
 use think\Request;
 use think\Controller;
+use think\View;
 
 class Index extends Controller
 {
@@ -136,9 +137,17 @@ class Index extends Controller
 //            "STATIC" => "这是 static 的替换内容"
 //        ]);
 
-        return $this->display('<p>display{$num}---{$data}</p>',[
-            'data' => 'helloworld'
-        ]);
+        $this->view->key2 = "value2";
+        View::share("key3", "value3");
+
+//        return $this->display('<p>display{$num}---{$data}</p>',[
+//            'data' => 'helloworld'
+//        ]);
+
+        return $this->fetch("view1", [
+            "username" => "jade",
+            "email" => "2538698032@qq.com"
+        ], ["STATIC" => "呵呵"]);
     }
 
 }
