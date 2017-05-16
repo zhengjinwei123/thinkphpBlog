@@ -2,16 +2,16 @@
 namespace app\index\controller;
 
 use app\common\controller\Index as commonIndex;
-use phpDocumentor\Reflection\Types\Integer;
-use phpDocumentor\Reflection\Types\String_;
 use think\Config;
 use think\Env;
 use think\Request;
+use think\Controller;
 
-class Index
+class Index extends Controller
 {
     public function __construct()
     {
+        parent::__construct();
         config("before", "beforeAction");
     }
 
@@ -122,7 +122,23 @@ class Index
 
     public function view1()
     {
-        return view();
+//        return view("view1", [
+//            "username" => "jade",
+//            "email" => "2538698032@qq.com"
+//        ], [
+//            "STATIC" => "这是 static 的替换内容"
+//        ]);
+        $this->assign("num", 123);
+//        return $this->fetch("view1", [
+//            "username" => "jade",
+//            "email" => "2538698032@qq.com"
+//        ], [
+//            "STATIC" => "这是 static 的替换内容"
+//        ]);
+
+        return $this->display('<p>display{$num}---{$data}</p>',[
+            'data' => 'helloworld'
+        ]);
     }
 
 }
