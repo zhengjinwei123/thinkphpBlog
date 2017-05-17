@@ -10,3 +10,17 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+
+use think\db;
+
+function get_user_info($userName, $key)
+{
+    $userModel = Db::name("user");
+
+    $results = $userModel->where(["username" => $userName])->select();
+
+    if (!empty($results) && isset($results[$key])) {
+        return $results[$key];
+    }
+    return null;
+}
