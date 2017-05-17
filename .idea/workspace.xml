@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c88bfa6-3d48-4c35-8884-185599b61721" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/index/controller/Common.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/index/controller/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/index/view/index_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/index/view/public_footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/index/view/public_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/conf/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/conf/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/conf/db.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/template/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/template/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp_5.0.5_full/.env" afterPath="$PROJECT_DIR$/thinkphp_5.0.5_full/.env" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/common.php" afterPath="$PROJECT_DIR$/web/app/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/database.php" afterPath="$PROJECT_DIR$/web/app/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/static/css/style.css" afterPath="$PROJECT_DIR$/web/public/static/css/style.css" />
     </list>
     <ignored path="thinkPro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +27,11 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/public/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.9005102">
-              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.38520408">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding>
-                <marker date="1495015444716" expanded="true" signature="602:634" placeholder="{...}" />
-                <marker date="1495015444716" expanded="true" signature="1048:1080" placeholder="{...}" />
+                <marker date="1495017842643" expanded="true" signature="602:634" placeholder="{...}" />
+                <marker date="1495017842643" expanded="true" signature="1044:1076" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -475,7 +462,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26545843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -861,11 +848,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/public/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9005102">
-          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.38520408">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
           <folding>
-            <marker date="1495015444716" expanded="true" signature="602:634" placeholder="{...}" />
-            <marker date="1495015444716" expanded="true" signature="1048:1080" placeholder="{...}" />
+            <marker date="1495017842643" expanded="true" signature="602:634" placeholder="{...}" />
+            <marker date="1495017842643" expanded="true" signature="1044:1076" placeholder="{...}" />
           </folding>
         </state>
       </provider>
