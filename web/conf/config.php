@@ -21,7 +21,8 @@ return array(
     // 视图输出字符串内容替换
     'view_replace_str' => [
         '__IMG__' => '/static/img',
-        '__BLOG__' => '睿智的博客'
+        '__BLOG__' => '静之曙光',
+        '__BOOTSTRAP__' => '/static/bootstrap3'
     ],
     'template' => [
         // 模板引擎类型 支持 php think 支持扩展
